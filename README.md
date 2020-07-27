@@ -13,17 +13,17 @@ The following steps are recommended.
 1.	Install XAMPP webserver.
 2.	Create Repositories folder in Applications/XAMPP/xamppfiles/htdocs
 3.	Upload all PHP files and resources folder to Repositories folder on XAMPP. Following is the explanation of all the PHP files
- -Db.php => It establishes the connection with the database using connection string variables.
- -Index.php => It has references to all JavaScript and CSS libraries that are required to create the interface. It also calls all other PHP pages to get the Repository details from the GitHub API, insert repository details into the database, and fetch details from the database and display on the index page.
- -Insertrepos.php => It calls GitHub API insert details into the database.
- -GitHub API call: I used this following link to call GitHub API. https://api.github.com/search/repositories?q=topic:PHP+language:PHP
- -Fetch.php => It fetches Repository details from Database and creates the DataTables.
- -Details.php => It fetches the remaining hidden repository details from the database and displays on the interface when the user clicks on small ‘+’ green color icon.
+  1.Db.php => It establishes the connection with the database using connection string variables.
+  2.Index.php => It has references to all JavaScript and CSS libraries that are required to create the interface. It also calls all other PHP pages to get the Repository details from the GitHub API, insert repository details into the database, and fetch details from the database and display on the index page.
+  3.Insertrepos.php => It calls GitHub API insert details into the database.
+  4.GitHub API call: I used this following link to call GitHub API. https://api.github.com/search/repositories?q=topic:PHP+language:PHP
+  5.Fetch.php => It fetches Repository details from Database and creates the DataTables.
+  6.Details.php => It fetches the remaining hidden repository details from the database and displays on the interface when the user clicks on small ‘+’ green color icon.
 4.	Resources folder has images used in this project
 5.	Create the database in MySQL (http://localhost/phpmyadmin)
- -Database name: repositories;
+  -Database name: repositories;
 6.	Create table in the database
- -Tablename: repos
+  -Tablename: repos
 7.	Create 10 columns, including ID, repositoryID, repoName, repoURL, createdDate, 
 lastpushDate, Description, Starts, Language, and Forks. 
 8.	If you want to skip the steps 6 and 7 shown above, you just need to upload repos.sql file (from my GitHub account) to MySQL Database.
