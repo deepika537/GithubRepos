@@ -30,14 +30,14 @@ lastpushDate, Description, Starts, Language, and Forks.
 9.	Please note that ID is the primary key of the table.
 10.	Structure of the Table is shown in the following screenshot:
 
-![ScreenShot1](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot1.png)
+![ScreenShot1](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot1.jpg)
  
 
 
 
 11.	The following screenshot shows that the repositories from the API are successfully uploaded into the database 
 
-![ScreenShot2](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot2.png) 
+![ScreenShot2](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot2.jpg) 
 
 
 The functionality of the application is shown below:
@@ -45,23 +45,23 @@ The functionality of the application is shown below:
 1.	Open http://localhost/Repositories/ in the browser
 2.	Click “Add Repositories” to load repositories into the interface as shown below
 
-![ScreenShot3](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot3.png)
+![ScreenShot3](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot3.jpg)
  
 
 3.	While uploading the repository details into the database a loading “Please Wait” gif will be displayed as shown below and will be hidden if we click on “OK” alert window as shown in the next screenshot.
  
-![ScreenShot4](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot4.png)
+![ScreenShot4](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot4.jpg)
  
-![ScreenShot5](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot5.png)
+![ScreenShot5](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot5.jpg)
 4.	Click on small green “+” icon in the first column (as shown in the screenshot below) to view the remaining details of the repository.
-![ScreenShot6](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot6.png) 
+![ScreenShot6](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot6.jpg) 
 
 5.	Click on export buttons “CSV, Excel, PDF” as highlighted in the following screenshot in order to export the data in different formats.
 
-![ScreenShot7](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot7.png) 
+![ScreenShot7](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot7.jpg) 
 
 6.	Enter any word in the search bar (on top right corner of the screenshot) to filter repositories in the table
-![ScreenShot8](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot8.png)
+![ScreenShot8](https://github.com/deepika537/GithubRepos/tree/master/Images/ScreenShot8.jpg)
  
 7.	Click on each column to sort table using the specific column.
 
